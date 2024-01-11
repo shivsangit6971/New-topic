@@ -2,9 +2,20 @@
 
 //syntax
 
-DATATYPE [] VARIABLE_NAME=NEW DATATYPE[SIZE];
-DATATYPE VARIABLE_NAME []=NEW DATATYPE[SIZE];
+1:DATATYPE [] VARIABLE_NAME=NEW DATATYPE[SIZE];
+2:DATATYPE VARIABLE_NAME []=NEW DATATYPE[SIZE];
 
 //EXAMPLE
 
 int a[]=new int[6];
+
+//how to insert element in array
+//syntax
+array_name(variable name)[index_value]=value(type same as that of declared data type of array);
+//example
+a[0]=10;
+a[4]=25;
+a[3]=30;
+a[1]=09;
+a[2]=20;
+a[5]=25;
