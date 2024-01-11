@@ -1,0 +1,10 @@
+//how to create an array
+
+//syntax
+
+DATATYPE [] VARIABLE_NAME=NEW DATATYPE[SIZE];
+DATATYPE VARIABLE_NAME []=NEW DATATYPE[SIZE];
+
+//EXAMPLE
+
+int a[]=new int[6];
